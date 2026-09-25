@@ -1,0 +1,7 @@
+.child {
+    border: 1px solid red;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
