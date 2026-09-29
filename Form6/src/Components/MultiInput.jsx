@@ -21,7 +21,7 @@ const handleChange=(e)=>{
         [name]:value
     }))
 }
-  return (
+  return ( 
     <div>
       <form onSubmit={handleSubmit}>
         NAME : <input type="text" name="name" id="" value={info.name}   onChange={handleChange}/>
