@@ -1,6 +1,7 @@
 import React from "react";
 import "./Basic.css";
 import { useState } from "react";
+import { CreditCardPlus } from "lucide-react";
 
 const Basic = () => {
   const [task, setTask] = useState("");
@@ -46,7 +47,9 @@ const Basic = () => {
           }}
         />
         <button className="submit" onClick={handleSubmit}>
-          Add Task
+        
+    <CreditCardPlus size={50} color="red" />
+
         </button>
       </form>
 
@@ -68,6 +71,8 @@ const Basic = () => {
       </div>
     </div>
   );
+
+
 };
 
 function Heading() {
