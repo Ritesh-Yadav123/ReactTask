@@ -48,7 +48,7 @@ const Basic = () => {
         />
         <button className="submit" onClick={handleSubmit}>
         
-    <CreditCardPlus size={50} color="red" />
+    <CreditCardPlus size={50} color="blue" />
 
         </button>
       </form>
